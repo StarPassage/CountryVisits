@@ -40,7 +40,7 @@ const CountryList = ({
           <div className="flex items-center">
             <div className="w-6 h-4 mr-2">
               <img
-                src={`./flags/${country.iso_code}.svg`}
+                src={`./flags/${country.iso_code.toLowerCase()}.svg`}
                 alt={`${country.name} flag`}
                 className="w-full h-full"
               />
