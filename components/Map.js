@@ -19,7 +19,6 @@ import {
   Checkbox,
 } from "@material-tailwind/react";
 import "/node_modules/flag-icons/css/flag-icons.min.css";
-import { List, WindowScroller } from "react-virtualized";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
