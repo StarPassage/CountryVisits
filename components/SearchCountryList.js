@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import worldMap from "data/worldMap.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { debounce } from "lodash";

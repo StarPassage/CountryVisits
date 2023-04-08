@@ -8,7 +8,6 @@ import {
   Tab,
   TabPanel,
 } from "@material-tailwind/react";
-// YourPage.js
 import { fetchAllCountries } from "../src/dataFetcher";
 
 export default function Home({ allCountries }) {
