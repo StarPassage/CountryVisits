@@ -108,7 +108,7 @@ const Map = ({ allCountries }) => {
 
   return (
     <div className="flex flex-col md:flex-row items-start justify-center">
-      <div className="md:w-1/3 flex flex-col items-start justify-center mr-4 flex-1">
+      <div className="w-full md:w-1/3 flex flex-col items-start justify-center mr-4 flex-1">
         <h2 className="text-2xl font-medium mb-4">Visited Countries</h2>
         <div className="flex items-center w-full bg-white p-2">
           <input
